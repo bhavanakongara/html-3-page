@@ -1,0 +1,157 @@
+body {
+    margin: 0px;
+}
+.header-sec {
+    background: url(./maskgroup.png);
+    width: 100%;
+    height: 600px;
+    position: relative;
+    padding: 20px;
+}
+#logo {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
+#logo a {margin: auto;}
+.navbar {
+    margin: auto;
+}
+.navbar ul {list-style-type: none;}
+.navbar ul li a {text-decoration: none;color: #48524D;}
+#navlist {
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+}
+.banner-sec {
+    padding: 20px;;
+}
+.banner-text {
+    text-align: center;
+    padding-top: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.banner-text h1 span{color: #48524D; font-size: xx-large;}
+.banner-text h1 {color: #29A34A;}
+.banner-text p {color: #48524D;}
+.explore-sec {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+}
+.explore-text {
+    width:600px;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.explore-text h5 {color: #48524D;}
+.explore-text p {color: #48524D;}
+.explore-text button {
+    color: #ffffff;
+    font-size: 7px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: transparent linear-gradient(270deg, #8AC640 0%, #29A34A 100%);
+    border-radius: 4px;
+    padding: 5px 12px;
+}
+.explore-img {
+    background: url(./Group\ 18938.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 406px;
+    width: 432px;
+}
+.tools-sec {
+    background-color: #29A34A;
+    padding: 30px;
+}
+.tools-head {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+}
+.tools-sec ul {
+    list-style-type: none;
+}
+.tools-sec ul li::before {
+    content: url(./checked.png);
+}
+.tools-part {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.color1 {
+    background-color: #FFFBEA;
+}
+.color2 {
+    background-color: #F0FFD0;
+}
+.color3 {
+    background-color: #E3FFFA;
+}
+.tools-part button{
+    background-color: #ffffff;
+}
+.commitment-sec {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    padding-left: 60px;
+    margin: auto;
+}
+.commitment-img {
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.commitment-text {
+    color: #48524D;
+    margin: auto;
+    padding-right: 80px;
+}
+.commitment-sec button {
+    color: #ffffff;
+    font-size: 7px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: transparent linear-gradient(270deg, #8AC640 0%, #29A34A 100%);
+    border-radius: 4px;
+    padding: 5px 12px;
+}
+.blog-text {
+    text-align: center;
+}
+.blog-text h2 {color: #8AC640;}
+.blog-text p {color: #48524D;}
+.blog-sub {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 80%;
+}
+.blog-part {
+    width: 20%;
+}
+.blog-part img {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
+.blog-part a {text-decoration: none; color: #29A34A;}
+.customer-review h3 {text-align: center; color: #48524D;}
+.review-part {display: flex; width: 60%; margin: 50px auto; border-style: solid;border-width: 1px;}
+.review-part h5 {font-size: xx-large; margin: 0px;}
+.review-part img {background-color: #F5F5F5; padding: 100px; width: 100px; height: 100px; margin: auto;}
+.review-text {background-color: #ffffff; margin: 20px;}
+.review-text p {color: #48524D;}
+.review-text p span {color: #29A34A;}
+footer {display: flex; background-color: #48524D;color: #FFFFFFCC;margin: auto; justify-content: space-between;padding: 40px;}
+.footer-part ul {padding: 0px;}
+.footer-part ul li {list-style-type: none;margin: 10px;}
+.media-icons {display: flex;justify-content: space-between;width: 70%;margin: auto;padding-top: 20px;}
