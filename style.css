@@ -1,8 +1,15 @@
+* {
+    box-sizing: border-box;
+}
 body {
     margin: 0px;
 }
+header {
+    display: flex;
+    width: 1140px;
+}
 .header-sec {
-    background: url(./maskgroup.png);
+    background: url(./Images/maskgroup.png);
     width: 100%;
     height: 600px;
     position: relative;
@@ -19,7 +26,7 @@ body {
     margin: auto;
 }
 .navbar ul {list-style-type: none;}
-.navbar ul li a {text-decoration: none;color: #48524D;}
+.navbar ul li a {text-decoration: none;color: #48524D; font-size: 16px;}
 #navlist {
     display: flex;
     justify-content: space-between;
@@ -30,35 +37,36 @@ body {
 }
 .banner-text {
     text-align: center;
-    padding-top: 60px;
+    padding-top: 120px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.banner-text h1 span{color: #48524D; font-size: xx-large;}
-.banner-text h1 {color: #29A34A;}
-.banner-text p {color: #48524D;}
+.banner-text h1 span{color: #48524D; font-size: 80px;}
+.banner-text h1 {color: #29A34A; font-size: 80px;}
+.banner-text p {color: #48524D; font-size: 24px;}
 .explore-sec {
     display: flex;
     justify-content: space-between;
     width: 70%;
     margin: 0 auto;
+    padding: 20px;
 }
 .explore-text {
     width:600px;
     margin: auto;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.explore-text h5 {color: #48524D;}
-.explore-text p {color: #48524D;}
+.explore-text h5 {color: #48524D; font-size: 30px;}
+.explore-text p {color: #48524D; font-size: 18px;}
 .explore-text button {
     color: #ffffff;
-    font-size: 7px;
+    font-size: 12px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: transparent linear-gradient(270deg, #8AC640 0%, #29A34A 100%);
     border-radius: 4px;
     padding: 5px 12px;
 }
 .explore-img {
-    background: url(./Group\ 18938.png);
+    background: url(./Images/Group\ 18938.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 406px;
@@ -73,11 +81,17 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #ffffff;
 }
+.tools-head h2 {
+    font-size: 36px;
+}
+.tools-head p {
+    font-size: 18px;
+}
 .tools-sec ul {
     list-style-type: none;
 }
 .tools-sec ul li::before {
-    content: url(./checked.png);
+    content: url(.Images/checked.png);
 }
 .tools-part {
     display: flex;
@@ -87,6 +101,9 @@ body {
     padding: 20px;
     margin-bottom: 30px;
 }
+.tools-part h4 {font-size: 18px;}
+.tools-part p {font-size: 14px;}
+.tools-part ul li {font-size: 14px;}
 .color1 {
     background-color: #FFFBEA;
 }
@@ -116,6 +133,9 @@ body {
     margin: auto;
     padding-right: 80px;
 }
+.commitment-text h3 {font-size: 36px;}
+.commitment-text p {font-size: 18px;}
+.commitment-text button {font-size: 12px;}
 .commitment-sec button {
     color: #ffffff;
     font-size: 7px;
@@ -127,14 +147,16 @@ body {
 .blog-text {
     text-align: center;
 }
-.blog-text h2 {color: #8AC640;}
-.blog-text p {color: #48524D;}
+.blog-text h2 {color: #8AC640; font-size: 36px;}
+.blog-text p {color: #48524D; font-size: 18px;}
 .blog-sub {
     display: flex;
     margin: auto;
     justify-content: space-between;
     width: 80%;
 }
+.blog-part h5 {font-size: 22px;}
+.blog-part a {font-size: 16px;}
 .blog-part {
     width: 20%;
 }
@@ -144,14 +166,15 @@ body {
     background-size: cover;
 }
 .blog-part a {text-decoration: none; color: #29A34A;}
-.customer-review h3 {text-align: center; color: #48524D;}
+.customer-review h3 {text-align: center; color: #48524D; font-size: 32px;}
 .review-part {display: flex; width: 60%; margin: 50px auto; border-style: solid;border-width: 1px;}
 .review-part h5 {font-size: xx-large; margin: 0px;}
-.review-part img {background-color: #F5F5F5; padding: 100px; width: 100px; height: 100px; margin: auto;}
+.review-part img {background-color: #F5F5F5; padding: 100px; width: 120px; height: 120px; margin: auto;}
 .review-text {background-color: #ffffff; margin: 20px;}
 .review-text p {color: #48524D;}
 .review-text p span {color: #29A34A;}
 footer {display: flex; background-color: #48524D;color: #FFFFFFCC;margin: auto; justify-content: space-between;padding: 40px;}
 .footer-part ul {padding: 0px;}
 .footer-part ul li {list-style-type: none;margin: 10px;}
-.media-icons {display: flex;justify-content: space-between;width: 70%;margin: auto;padding-top: 20px;}
+.media-icons ul {list-style-type: none;display: flex;justify-content: space-between;width: 70%;margin: auto;padding-top: 20px;}
+.media-icons ul {list-style-type: none;}
